@@ -24,19 +24,19 @@ export default function MobileMenu() {
     const links = [
         { label: "Inicio", href: "#intro" },
         { label: "Nosotros", href: "#acerca" },
-        { label: "Menú", href: "#carta" },
+        { label: "Carta", href: "#carta" },
         { label: "Contacto", href: "#contacto" }
     ];
 
     return (
         // Contenedor principal para el botón del menú y el panel
         <div className="menu-toggle-container">
-
             {/* Botón para abrir y cerrar el menú */}
             <button
                 onClick={() => setIsOpen(!isOpen)} // Cambia el estado del menú al hacer clic
                 className="menu-toggle-button"
             >
+            <p className="boton_menu_info"> MENÚ </p>
                 {/* Muestra el icono X si el menú está abierto, de lo contrario muestra el icono de menú */}
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
