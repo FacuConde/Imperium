@@ -36,8 +36,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 /* ===========================
    LAYOUT GENERAL
 =========================== */
@@ -284,7 +282,7 @@ h3 {
     width: 300px;
     height: auto;
     margin-bottom: 15px;
-    border-radius: 8px;
+    border-radius: 20px;
     object-fit: cover;
     cursor: pointer;
 }
