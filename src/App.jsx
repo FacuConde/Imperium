@@ -50,7 +50,7 @@ function App() {
       {/* Contenido principal de la aplicación */}
       <main>
         <button className='subir'>
-          <a href="#intro" className="boton_volver"> <img src="/img/icon-arrow.webp" alt="WhatsApp" width="50" /> </a>
+          <a href="#intro" className="boton_volver"> <img src="/img/icon-arrow.svg" alt="WhatsApp" width="50" /> </a>
         </button>
 
         {/* Menú móvil posicionado en la parte superior derecha */}
