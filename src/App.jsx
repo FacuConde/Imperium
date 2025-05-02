@@ -49,6 +49,10 @@ function App() {
 
       {/* Contenido principal de la aplicación */}
       <main>
+        <button className='subir'>
+          <a href="#intro" className="boton_volver"> <img src="/img/icon-arrow.png" alt="WhatsApp" width="50" /> </a>
+        </button>
+
         {/* Menú móvil posicionado en la parte superior derecha */}
         <div className="mobile-menu" style={{ position: 'absolute', top: '10px', right: '10px' }}>
           <MobileMenu />
