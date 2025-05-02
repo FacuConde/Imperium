@@ -182,6 +182,39 @@ h3 {
     padding-top: 20px;
 }
 
+.boton_menu_info {
+    font-size: 1.3rem;
+}
+
+.subir {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000; /* asegurarte de que esté por encima del contenido */
+    background: none !important;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .subir:hover {
+    transform: scale(1.1);
+  }
+  
+
+.boton_volver {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* ===========================
    MENU MOBILE
 =========================== */
@@ -703,6 +736,10 @@ h3 {
         width: 50%;
         margin: 20px 20px 20px 20px;
     }
+
+    .menu-panel{
+        width: 20% !important;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -734,6 +771,10 @@ h3 {
         margin: 20px 20px 20px 20px;
     }
 
+    .menu-panel{
+        width: 50%;
+    }
+
 }
 
 @media screen and (min-height: 800px) and (max-width: 350px) {
@@ -741,4 +782,12 @@ h3 {
         padding-top: 90% !important;
         padding-bottom: 160%;
     }
+}
+
+@media screen and (min-width:500px) {
+
+    .menu-panel{
+        width: 50%;
+    }
+
 }
